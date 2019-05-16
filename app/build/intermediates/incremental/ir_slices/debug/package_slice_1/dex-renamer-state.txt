@@ -1,0 +1,4 @@
+#Fri Apr 05 09:46:15 CEST 2019
+base.0=/Users/wachedecorbievalentin/StudioProjects/pong/app/build/intermediates/transforms/dexMerger/debug/1
+path.0=classes.dex
+renamed.0=classes.dex

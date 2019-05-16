@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Pong</string>
+    <string name="title_pong">Pong</string>
+    <string name="title_team">Team</string>
+</resources>

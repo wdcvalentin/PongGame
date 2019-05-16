@@ -1,0 +1,198 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /Users/wachedecorbievalentin/StudioProjects/pong/app/src/main/AndroidManifest.xml:2:1-32:12
+INJECTED from /Users/wachedecorbievalentin/StudioProjects/pong/app/src/main/AndroidManifest.xml:2:1-32:12
+INJECTED from /Users/wachedecorbievalentin/StudioProjects/pong/app/src/main/AndroidManifest.xml:2:1-32:12
+INJECTED from /Users/wachedecorbievalentin/StudioProjects/pong/app/src/main/AndroidManifest.xml:2:1-32:12
+MERGED from [com.android.support:design:28.0.0] /Users/wachedecorbievalentin/.gradle/caches/transforms-1/files-1.1/design-28.0.0.aar/3868e7296cd7d28630d7524d5a4c87b4/AndroidManifest.xml:17:1-24:12
+MERGED from [com.android.support:appcompat-v7:28.0.0] /Users/wachedecorbievalentin/.gradle/caches/transforms-1/files-1.1/appcompat-v7-28.0.0.aar/da2b8c7793fd6d9fc68d000b08f4df8a/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] /Users/wachedecorbievalentin/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.1.3.aar/e28d191e4503684ed479144d112db551/AndroidManifest.xml:2:1-11:12
+MERGED from [com.android.support:animated-vector-drawable:28.0.0] /Users/wachedecorbievalentin/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-28.0.0.aar/10d4c5bfeb18ca8f48358ee8b16f4617/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-vector-drawable:28.0.0] /Users/wachedecorbievalentin/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-28.0.0.aar/1061da9331f1ec11c14ca6b142f9e4a9/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:recyclerview-v7:28.0.0] /Users/wachedecorbievalentin/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-28.0.0.aar/aa5621e6a4b4bd0e8e82125b54f84989/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-fragment:28.0.0] /Users/wachedecorbievalentin/.gradle/caches/transforms-1/files-1.1/support-fragment-28.0.0.aar/8bcf6980d567a9a3801d003ce957403f/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-ui:28.0.0] /Users/wachedecorbievalentin/.gradle/caches/transforms-1/files-1.1/support-core-ui-28.0.0.aar/a7990f7c607b2031dd1bb9a79a0ffd48/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-utils:28.0.0] /Users/wachedecorbievalentin/.gradle/caches/transforms-1/files-1.1/support-core-utils-28.0.0.aar/53011b100e4803db4f77d2f255b23f23/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:transition:28.0.0] /Users/wachedecorbievalentin/.gradle/caches/transforms-1/files-1.1/transition-28.0.0.aar/0bea99027a047363ee6f566b1bd7166b/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:loader:28.0.0] /Users/wachedecorbievalentin/.gradle/caches/transforms-1/files-1.1/loader-28.0.0.aar/7d6a4658d891150940ca3f34caa5f4bb/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:viewpager:28.0.0] /Users/wachedecorbievalentin/.gradle/caches/transforms-1/files-1.1/viewpager-28.0.0.aar/9365c9002dce59906c4e04c1fbc95e5f/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:coordinatorlayout:28.0.0] /Users/wachedecorbievalentin/.gradle/caches/transforms-1/files-1.1/coordinatorlayout-28.0.0.aar/e5539a08db7756f973dbcb4f5de01e67/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:drawerlayout:28.0.0] /Users/wachedecorbievalentin/.gradle/caches/transforms-1/files-1.1/drawerlayout-28.0.0.aar/0bbc18d747de8a649bacee4566ba0630/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:slidingpanelayout:28.0.0] /Users/wachedecorbievalentin/.gradle/caches/transforms-1/files-1.1/slidingpanelayout-28.0.0.aar/e574806b61e4b36b437b31d2f6276fbb/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:customview:28.0.0] /Users/wachedecorbievalentin/.gradle/caches/transforms-1/files-1.1/customview-28.0.0.aar/2822ab3bd2cc27d4d1cd5be0c6469a57/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:swiperefreshlayout:28.0.0] /Users/wachedecorbievalentin/.gradle/caches/transforms-1/files-1.1/swiperefreshlayout-28.0.0.aar/a88b74c0f274787807777b0adb870f16/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:asynclayoutinflater:28.0.0] /Users/wachedecorbievalentin/.gradle/caches/transforms-1/files-1.1/asynclayoutinflater-28.0.0.aar/82a5c3a712019461c1d3a79c6dd02b3f/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-compat:28.0.0] /Users/wachedecorbievalentin/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/9bf6b8ae45496cf9e89da6ebe3fc2006/AndroidManifest.xml:17:1-24:12
+MERGED from [com.android.support:versionedparcelable:28.0.0] /Users/wachedecorbievalentin/.gradle/caches/transforms-1/files-1.1/versionedparcelable-28.0.0.aar/3d9a0651a4d451df6f4bc458c8500bc2/AndroidManifest.xml:17:1-25:12
+MERGED from [com.android.support:cursoradapter:28.0.0] /Users/wachedecorbievalentin/.gradle/caches/transforms-1/files-1.1/cursoradapter-28.0.0.aar/2046461bed5439225bc74ac24f827f00/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:cardview-v7:28.0.0] /Users/wachedecorbievalentin/.gradle/caches/transforms-1/files-1.1/cardview-v7-28.0.0.aar/e5d48593085cb1bb295842a90d990bf7/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:runtime:1.1.1] /Users/wachedecorbievalentin/.gradle/caches/transforms-1/files-1.1/runtime-1.1.1.aar/00121478b016d2aa24a98305587ccc06/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:documentfile:28.0.0] /Users/wachedecorbievalentin/.gradle/caches/transforms-1/files-1.1/documentfile-28.0.0.aar/ec11d6004e2c71b913b0a1d02e94204b/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:localbroadcastmanager:28.0.0] /Users/wachedecorbievalentin/.gradle/caches/transforms-1/files-1.1/localbroadcastmanager-28.0.0.aar/cfef0e3c0a7ac99d191f9c34b57bc95b/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:print:28.0.0] /Users/wachedecorbievalentin/.gradle/caches/transforms-1/files-1.1/print-28.0.0.aar/754a174146f37b95450a7960b7b89316/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] /Users/wachedecorbievalentin/.gradle/caches/transforms-1/files-1.1/viewmodel-1.1.1.aar/52aa07de35b4ddd9fd775264829430c8/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:interpolator:28.0.0] /Users/wachedecorbievalentin/.gradle/caches/transforms-1/files-1.1/interpolator-28.0.0.aar/a94e74859eb548558e812ae4439dafb9/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:livedata:1.1.1] /Users/wachedecorbievalentin/.gradle/caches/transforms-1/files-1.1/livedata-1.1.1.aar/e94c0089a2c10fec3fea50b01bab4603/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] /Users/wachedecorbievalentin/.gradle/caches/transforms-1/files-1.1/livedata-core-1.1.1.aar/8b0644bd1ac488261d98f795be033d59/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.core:runtime:1.1.1] /Users/wachedecorbievalentin/.gradle/caches/transforms-1/files-1.1/runtime-1.1.1.aar/9ee39372208e1f718135d603757506ab/AndroidManifest.xml:17:1-22:12
+INJECTED from /Users/wachedecorbievalentin/StudioProjects/pong/app/src/main/AndroidManifest.xml:2:1-32:12
+INJECTED from /Users/wachedecorbievalentin/StudioProjects/pong/app/src/main/AndroidManifest.xml:2:1-32:12
+INJECTED from /Users/wachedecorbievalentin/StudioProjects/pong/app/src/main/AndroidManifest.xml:2:1-32:12
+	package
+		ADDED from /Users/wachedecorbievalentin/StudioProjects/pong/app/src/main/AndroidManifest.xml:3:5-31
+		INJECTED from /Users/wachedecorbievalentin/StudioProjects/pong/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/wachedecorbievalentin/StudioProjects/pong/app/src/main/AndroidManifest.xml
+	android:versionName
+		INJECTED from /Users/wachedecorbievalentin/StudioProjects/pong/app/src/main/AndroidManifest.xml
+		ADDED from /Users/wachedecorbievalentin/StudioProjects/pong/app/src/main/AndroidManifest.xml:2:1-32:12
+		INJECTED from /Users/wachedecorbievalentin/StudioProjects/pong/app/src/main/AndroidManifest.xml
+	android:versionCode
+		INJECTED from /Users/wachedecorbievalentin/StudioProjects/pong/app/src/main/AndroidManifest.xml
+		ADDED from /Users/wachedecorbievalentin/StudioProjects/pong/app/src/main/AndroidManifest.xml:2:1-32:12
+		INJECTED from /Users/wachedecorbievalentin/StudioProjects/pong/app/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /Users/wachedecorbievalentin/StudioProjects/pong/app/src/main/AndroidManifest.xml:2:11-69
+uses-permission#android.permission.SEND_SMS
+ADDED from /Users/wachedecorbievalentin/StudioProjects/pong/app/src/main/AndroidManifest.xml:5:5-66
+	android:name
+		ADDED from /Users/wachedecorbievalentin/StudioProjects/pong/app/src/main/AndroidManifest.xml:5:22-64
+uses-permission#android.permission.VIBRATE
+ADDED from /Users/wachedecorbievalentin/StudioProjects/pong/app/src/main/AndroidManifest.xml:6:5-66
+	android:name
+		ADDED from /Users/wachedecorbievalentin/StudioProjects/pong/app/src/main/AndroidManifest.xml:6:22-63
+application
+ADDED from /Users/wachedecorbievalentin/StudioProjects/pong/app/src/main/AndroidManifest.xml:8:5-30:19
+MERGED from [com.android.support:design:28.0.0] /Users/wachedecorbievalentin/.gradle/caches/transforms-1/files-1.1/design-28.0.0.aar/3868e7296cd7d28630d7524d5a4c87b4/AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:design:28.0.0] /Users/wachedecorbievalentin/.gradle/caches/transforms-1/files-1.1/design-28.0.0.aar/3868e7296cd7d28630d7524d5a4c87b4/AndroidManifest.xml:22:5-20
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] /Users/wachedecorbievalentin/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.1.3.aar/e28d191e4503684ed479144d112db551/AndroidManifest.xml:9:5-20
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] /Users/wachedecorbievalentin/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.1.3.aar/e28d191e4503684ed479144d112db551/AndroidManifest.xml:9:5-20
+MERGED from [com.android.support:support-compat:28.0.0] /Users/wachedecorbievalentin/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/9bf6b8ae45496cf9e89da6ebe3fc2006/AndroidManifest.xml:22:5-94
+MERGED from [com.android.support:support-compat:28.0.0] /Users/wachedecorbievalentin/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/9bf6b8ae45496cf9e89da6ebe3fc2006/AndroidManifest.xml:22:5-94
+MERGED from [com.android.support:versionedparcelable:28.0.0] /Users/wachedecorbievalentin/.gradle/caches/transforms-1/files-1.1/versionedparcelable-28.0.0.aar/3d9a0651a4d451df6f4bc458c8500bc2/AndroidManifest.xml:22:5-23:19
+MERGED from [com.android.support:versionedparcelable:28.0.0] /Users/wachedecorbievalentin/.gradle/caches/transforms-1/files-1.1/versionedparcelable-28.0.0.aar/3d9a0651a4d451df6f4bc458c8500bc2/AndroidManifest.xml:22:5-23:19
+	android:appComponentFactory
+		ADDED from [com.android.support:support-compat:28.0.0] /Users/wachedecorbievalentin/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/9bf6b8ae45496cf9e89da6ebe3fc2006/AndroidManifest.xml:22:18-91
+	android:supportsRtl
+		ADDED from /Users/wachedecorbievalentin/StudioProjects/pong/app/src/main/AndroidManifest.xml:13:9-35
+	android:label
+		ADDED from /Users/wachedecorbievalentin/StudioProjects/pong/app/src/main/AndroidManifest.xml:11:9-33
+	android:roundIcon
+		ADDED from /Users/wachedecorbievalentin/StudioProjects/pong/app/src/main/AndroidManifest.xml:12:9-53
+	android:icon
+		ADDED from /Users/wachedecorbievalentin/StudioProjects/pong/app/src/main/AndroidManifest.xml:10:9-48
+	android:allowBackup
+		ADDED from /Users/wachedecorbievalentin/StudioProjects/pong/app/src/main/AndroidManifest.xml:9:9-35
+	android:theme
+		ADDED from /Users/wachedecorbievalentin/StudioProjects/pong/app/src/main/AndroidManifest.xml:14:9-40
+	android:name
+		ADDED from /Users/wachedecorbievalentin/StudioProjects/pong/app/src/main/AndroidManifest.xml:15:9-46
+activity#com.DogPong.pong.SplashActivity
+ADDED from /Users/wachedecorbievalentin/StudioProjects/pong/app/src/main/AndroidManifest.xml:16:9-23:20
+	android:parentActivityName
+		ADDED from /Users/wachedecorbievalentin/StudioProjects/pong/app/src/main/AndroidManifest.xml:18:13-71
+	android:theme
+		ADDED from /Users/wachedecorbievalentin/StudioProjects/pong/app/src/main/AndroidManifest.xml:17:60-94
+	android:name
+		ADDED from /Users/wachedecorbievalentin/StudioProjects/pong/app/src/main/AndroidManifest.xml:17:13-59
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from /Users/wachedecorbievalentin/StudioProjects/pong/app/src/main/AndroidManifest.xml:19:13-22:29
+action#android.intent.action.MAIN
+ADDED from /Users/wachedecorbievalentin/StudioProjects/pong/app/src/main/AndroidManifest.xml:20:17-69
+	android:name
+		ADDED from /Users/wachedecorbievalentin/StudioProjects/pong/app/src/main/AndroidManifest.xml:20:25-66
+category#android.intent.category.LAUNCHER
+ADDED from /Users/wachedecorbievalentin/StudioProjects/pong/app/src/main/AndroidManifest.xml:21:17-77
+	android:name
+		ADDED from /Users/wachedecorbievalentin/StudioProjects/pong/app/src/main/AndroidManifest.xml:21:27-74
+activity#com.DogPong.pong.MainActivity
+ADDED from /Users/wachedecorbievalentin/StudioProjects/pong/app/src/main/AndroidManifest.xml:24:9-26:37
+	android:parentActivityName
+		ADDED from /Users/wachedecorbievalentin/StudioProjects/pong/app/src/main/AndroidManifest.xml:25:13-71
+	android:label
+		ADDED from /Users/wachedecorbievalentin/StudioProjects/pong/app/src/main/AndroidManifest.xml:26:13-35
+	android:name
+		ADDED from /Users/wachedecorbievalentin/StudioProjects/pong/app/src/main/AndroidManifest.xml:24:19-63
+activity#com.DogPong.pong.TeamActivity
+ADDED from /Users/wachedecorbievalentin/StudioProjects/pong/app/src/main/AndroidManifest.xml:27:9-29:37
+	android:parentActivityName
+		ADDED from /Users/wachedecorbievalentin/StudioProjects/pong/app/src/main/AndroidManifest.xml:28:13-71
+	android:label
+		ADDED from /Users/wachedecorbievalentin/StudioProjects/pong/app/src/main/AndroidManifest.xml:29:13-35
+	android:name
+		ADDED from /Users/wachedecorbievalentin/StudioProjects/pong/app/src/main/AndroidManifest.xml:27:19-63
+uses-sdk
+INJECTED from /Users/wachedecorbievalentin/StudioProjects/pong/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /Users/wachedecorbievalentin/StudioProjects/pong/app/src/main/AndroidManifest.xml
+INJECTED from /Users/wachedecorbievalentin/StudioProjects/pong/app/src/main/AndroidManifest.xml
+MERGED from [com.android.support:design:28.0.0] /Users/wachedecorbievalentin/.gradle/caches/transforms-1/files-1.1/design-28.0.0.aar/3868e7296cd7d28630d7524d5a4c87b4/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:design:28.0.0] /Users/wachedecorbievalentin/.gradle/caches/transforms-1/files-1.1/design-28.0.0.aar/3868e7296cd7d28630d7524d5a4c87b4/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:appcompat-v7:28.0.0] /Users/wachedecorbievalentin/.gradle/caches/transforms-1/files-1.1/appcompat-v7-28.0.0.aar/da2b8c7793fd6d9fc68d000b08f4df8a/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:appcompat-v7:28.0.0] /Users/wachedecorbievalentin/.gradle/caches/transforms-1/files-1.1/appcompat-v7-28.0.0.aar/da2b8c7793fd6d9fc68d000b08f4df8a/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] /Users/wachedecorbievalentin/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.1.3.aar/e28d191e4503684ed479144d112db551/AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] /Users/wachedecorbievalentin/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.1.3.aar/e28d191e4503684ed479144d112db551/AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support:animated-vector-drawable:28.0.0] /Users/wachedecorbievalentin/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-28.0.0.aar/10d4c5bfeb18ca8f48358ee8b16f4617/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:28.0.0] /Users/wachedecorbievalentin/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-28.0.0.aar/10d4c5bfeb18ca8f48358ee8b16f4617/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:28.0.0] /Users/wachedecorbievalentin/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-28.0.0.aar/1061da9331f1ec11c14ca6b142f9e4a9/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:28.0.0] /Users/wachedecorbievalentin/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-28.0.0.aar/1061da9331f1ec11c14ca6b142f9e4a9/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:recyclerview-v7:28.0.0] /Users/wachedecorbievalentin/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-28.0.0.aar/aa5621e6a4b4bd0e8e82125b54f84989/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:recyclerview-v7:28.0.0] /Users/wachedecorbievalentin/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-28.0.0.aar/aa5621e6a4b4bd0e8e82125b54f84989/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:28.0.0] /Users/wachedecorbievalentin/.gradle/caches/transforms-1/files-1.1/support-fragment-28.0.0.aar/8bcf6980d567a9a3801d003ce957403f/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:28.0.0] /Users/wachedecorbievalentin/.gradle/caches/transforms-1/files-1.1/support-fragment-28.0.0.aar/8bcf6980d567a9a3801d003ce957403f/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:28.0.0] /Users/wachedecorbievalentin/.gradle/caches/transforms-1/files-1.1/support-core-ui-28.0.0.aar/a7990f7c607b2031dd1bb9a79a0ffd48/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:28.0.0] /Users/wachedecorbievalentin/.gradle/caches/transforms-1/files-1.1/support-core-ui-28.0.0.aar/a7990f7c607b2031dd1bb9a79a0ffd48/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:28.0.0] /Users/wachedecorbievalentin/.gradle/caches/transforms-1/files-1.1/support-core-utils-28.0.0.aar/53011b100e4803db4f77d2f255b23f23/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:28.0.0] /Users/wachedecorbievalentin/.gradle/caches/transforms-1/files-1.1/support-core-utils-28.0.0.aar/53011b100e4803db4f77d2f255b23f23/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:transition:28.0.0] /Users/wachedecorbievalentin/.gradle/caches/transforms-1/files-1.1/transition-28.0.0.aar/0bea99027a047363ee6f566b1bd7166b/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:transition:28.0.0] /Users/wachedecorbievalentin/.gradle/caches/transforms-1/files-1.1/transition-28.0.0.aar/0bea99027a047363ee6f566b1bd7166b/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:loader:28.0.0] /Users/wachedecorbievalentin/.gradle/caches/transforms-1/files-1.1/loader-28.0.0.aar/7d6a4658d891150940ca3f34caa5f4bb/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:loader:28.0.0] /Users/wachedecorbievalentin/.gradle/caches/transforms-1/files-1.1/loader-28.0.0.aar/7d6a4658d891150940ca3f34caa5f4bb/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:viewpager:28.0.0] /Users/wachedecorbievalentin/.gradle/caches/transforms-1/files-1.1/viewpager-28.0.0.aar/9365c9002dce59906c4e04c1fbc95e5f/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:viewpager:28.0.0] /Users/wachedecorbievalentin/.gradle/caches/transforms-1/files-1.1/viewpager-28.0.0.aar/9365c9002dce59906c4e04c1fbc95e5f/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:coordinatorlayout:28.0.0] /Users/wachedecorbievalentin/.gradle/caches/transforms-1/files-1.1/coordinatorlayout-28.0.0.aar/e5539a08db7756f973dbcb4f5de01e67/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:coordinatorlayout:28.0.0] /Users/wachedecorbievalentin/.gradle/caches/transforms-1/files-1.1/coordinatorlayout-28.0.0.aar/e5539a08db7756f973dbcb4f5de01e67/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:drawerlayout:28.0.0] /Users/wachedecorbievalentin/.gradle/caches/transforms-1/files-1.1/drawerlayout-28.0.0.aar/0bbc18d747de8a649bacee4566ba0630/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:drawerlayout:28.0.0] /Users/wachedecorbievalentin/.gradle/caches/transforms-1/files-1.1/drawerlayout-28.0.0.aar/0bbc18d747de8a649bacee4566ba0630/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:slidingpanelayout:28.0.0] /Users/wachedecorbievalentin/.gradle/caches/transforms-1/files-1.1/slidingpanelayout-28.0.0.aar/e574806b61e4b36b437b31d2f6276fbb/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:slidingpanelayout:28.0.0] /Users/wachedecorbievalentin/.gradle/caches/transforms-1/files-1.1/slidingpanelayout-28.0.0.aar/e574806b61e4b36b437b31d2f6276fbb/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:customview:28.0.0] /Users/wachedecorbievalentin/.gradle/caches/transforms-1/files-1.1/customview-28.0.0.aar/2822ab3bd2cc27d4d1cd5be0c6469a57/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:customview:28.0.0] /Users/wachedecorbievalentin/.gradle/caches/transforms-1/files-1.1/customview-28.0.0.aar/2822ab3bd2cc27d4d1cd5be0c6469a57/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:swiperefreshlayout:28.0.0] /Users/wachedecorbievalentin/.gradle/caches/transforms-1/files-1.1/swiperefreshlayout-28.0.0.aar/a88b74c0f274787807777b0adb870f16/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:swiperefreshlayout:28.0.0] /Users/wachedecorbievalentin/.gradle/caches/transforms-1/files-1.1/swiperefreshlayout-28.0.0.aar/a88b74c0f274787807777b0adb870f16/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:asynclayoutinflater:28.0.0] /Users/wachedecorbievalentin/.gradle/caches/transforms-1/files-1.1/asynclayoutinflater-28.0.0.aar/82a5c3a712019461c1d3a79c6dd02b3f/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:asynclayoutinflater:28.0.0] /Users/wachedecorbievalentin/.gradle/caches/transforms-1/files-1.1/asynclayoutinflater-28.0.0.aar/82a5c3a712019461c1d3a79c6dd02b3f/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:28.0.0] /Users/wachedecorbievalentin/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/9bf6b8ae45496cf9e89da6ebe3fc2006/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:28.0.0] /Users/wachedecorbievalentin/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/9bf6b8ae45496cf9e89da6ebe3fc2006/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:versionedparcelable:28.0.0] /Users/wachedecorbievalentin/.gradle/caches/transforms-1/files-1.1/versionedparcelable-28.0.0.aar/3d9a0651a4d451df6f4bc458c8500bc2/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:versionedparcelable:28.0.0] /Users/wachedecorbievalentin/.gradle/caches/transforms-1/files-1.1/versionedparcelable-28.0.0.aar/3d9a0651a4d451df6f4bc458c8500bc2/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cursoradapter:28.0.0] /Users/wachedecorbievalentin/.gradle/caches/transforms-1/files-1.1/cursoradapter-28.0.0.aar/2046461bed5439225bc74ac24f827f00/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cursoradapter:28.0.0] /Users/wachedecorbievalentin/.gradle/caches/transforms-1/files-1.1/cursoradapter-28.0.0.aar/2046461bed5439225bc74ac24f827f00/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cardview-v7:28.0.0] /Users/wachedecorbievalentin/.gradle/caches/transforms-1/files-1.1/cardview-v7-28.0.0.aar/e5d48593085cb1bb295842a90d990bf7/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cardview-v7:28.0.0] /Users/wachedecorbievalentin/.gradle/caches/transforms-1/files-1.1/cardview-v7-28.0.0.aar/e5d48593085cb1bb295842a90d990bf7/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.1] /Users/wachedecorbievalentin/.gradle/caches/transforms-1/files-1.1/runtime-1.1.1.aar/00121478b016d2aa24a98305587ccc06/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.1] /Users/wachedecorbievalentin/.gradle/caches/transforms-1/files-1.1/runtime-1.1.1.aar/00121478b016d2aa24a98305587ccc06/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:documentfile:28.0.0] /Users/wachedecorbievalentin/.gradle/caches/transforms-1/files-1.1/documentfile-28.0.0.aar/ec11d6004e2c71b913b0a1d02e94204b/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:documentfile:28.0.0] /Users/wachedecorbievalentin/.gradle/caches/transforms-1/files-1.1/documentfile-28.0.0.aar/ec11d6004e2c71b913b0a1d02e94204b/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:localbroadcastmanager:28.0.0] /Users/wachedecorbievalentin/.gradle/caches/transforms-1/files-1.1/localbroadcastmanager-28.0.0.aar/cfef0e3c0a7ac99d191f9c34b57bc95b/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:localbroadcastmanager:28.0.0] /Users/wachedecorbievalentin/.gradle/caches/transforms-1/files-1.1/localbroadcastmanager-28.0.0.aar/cfef0e3c0a7ac99d191f9c34b57bc95b/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:print:28.0.0] /Users/wachedecorbievalentin/.gradle/caches/transforms-1/files-1.1/print-28.0.0.aar/754a174146f37b95450a7960b7b89316/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:print:28.0.0] /Users/wachedecorbievalentin/.gradle/caches/transforms-1/files-1.1/print-28.0.0.aar/754a174146f37b95450a7960b7b89316/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] /Users/wachedecorbievalentin/.gradle/caches/transforms-1/files-1.1/viewmodel-1.1.1.aar/52aa07de35b4ddd9fd775264829430c8/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] /Users/wachedecorbievalentin/.gradle/caches/transforms-1/files-1.1/viewmodel-1.1.1.aar/52aa07de35b4ddd9fd775264829430c8/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:interpolator:28.0.0] /Users/wachedecorbievalentin/.gradle/caches/transforms-1/files-1.1/interpolator-28.0.0.aar/a94e74859eb548558e812ae4439dafb9/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:interpolator:28.0.0] /Users/wachedecorbievalentin/.gradle/caches/transforms-1/files-1.1/interpolator-28.0.0.aar/a94e74859eb548558e812ae4439dafb9/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata:1.1.1] /Users/wachedecorbievalentin/.gradle/caches/transforms-1/files-1.1/livedata-1.1.1.aar/e94c0089a2c10fec3fea50b01bab4603/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata:1.1.1] /Users/wachedecorbievalentin/.gradle/caches/transforms-1/files-1.1/livedata-1.1.1.aar/e94c0089a2c10fec3fea50b01bab4603/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] /Users/wachedecorbievalentin/.gradle/caches/transforms-1/files-1.1/livedata-core-1.1.1.aar/8b0644bd1ac488261d98f795be033d59/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] /Users/wachedecorbievalentin/.gradle/caches/transforms-1/files-1.1/livedata-core-1.1.1.aar/8b0644bd1ac488261d98f795be033d59/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.1] /Users/wachedecorbievalentin/.gradle/caches/transforms-1/files-1.1/runtime-1.1.1.aar/9ee39372208e1f718135d603757506ab/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.1] /Users/wachedecorbievalentin/.gradle/caches/transforms-1/files-1.1/runtime-1.1.1.aar/9ee39372208e1f718135d603757506ab/AndroidManifest.xml:20:5-44
+INJECTED from /Users/wachedecorbievalentin/StudioProjects/pong/app/src/main/AndroidManifest.xml
+INJECTED from /Users/wachedecorbievalentin/StudioProjects/pong/app/src/main/AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from /Users/wachedecorbievalentin/StudioProjects/pong/app/src/main/AndroidManifest.xml
+		ADDED from /Users/wachedecorbievalentin/StudioProjects/pong/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/wachedecorbievalentin/StudioProjects/pong/app/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /Users/wachedecorbievalentin/StudioProjects/pong/app/src/main/AndroidManifest.xml
+		ADDED from /Users/wachedecorbievalentin/StudioProjects/pong/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/wachedecorbievalentin/StudioProjects/pong/app/src/main/AndroidManifest.xml
