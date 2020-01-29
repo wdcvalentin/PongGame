@@ -30,6 +30,13 @@ public class PongView extends View implements View.OnTouchListener {
     int losescore;
     int bouncecount;
     int count;
+    int giftLifeX;
+    int giftLifeY;
+    int giftSlowX;
+    int giftSlowY;
+    boolean giftLifeFlag = false;
+    boolean giftSlowFlag = false;
+
     String num;
     String msg;
     String[] toppings;
@@ -37,6 +44,8 @@ public class PongView extends View implements View.OnTouchListener {
     Vibrator v;
     Paint paintballe = new Paint();
     Paint paintrect = new Paint();
+    Paint paintgiftLife = new Paint();
+    Paint paintgiftSlow = new Paint();
     Paint textpaint;
     Paint myPaint;
 
@@ -50,6 +59,8 @@ public class PongView extends View implements View.OnTouchListener {
         losescore = 10;
         bouncecount = 0;
         count = 0;
+        giftLifeX = 0;
+        giftLifeY = 0;
 
         myPaint = new Paint();
         textpaint = new Paint();
@@ -87,6 +98,10 @@ public class PongView extends View implements View.OnTouchListener {
         paintballe.setColor(Color.GRAY);
         paintrect.setStyle(Paint.Style.STROKE);
         paintrect.setColor(Color.BLACK);
+        paintgiftLife.setStyle(Paint.Style.FILL_AND_STROKE);
+        paintgiftLife.setColor(Color.RED);
+        paintgiftSlow.setStyle(Paint.Style.FILL_AND_STROKE);
+        paintgiftSlow.setColor(Color.BLUE);
 
         this.setOnTouchListener(this);
 
@@ -102,9 +117,20 @@ public class PongView extends View implements View.OnTouchListener {
         canvas.drawRect(fingerX - 200, height - 300, fingerX + 200, height - 250 , paintballe);
         canvas.drawText(String.valueOf("Life = " + losescore), 100, 500, textpaint);
         canvas.drawText(String.valueOf("score = " + bouncecount), 100, 900, textpaint);
+
         if (message != null) {
             canvas.drawText(String.valueOf(message), 300, 1500, textpaint);
         }
+
+        if (giftLifeFlag) {
+            canvas.drawCircle(giftLifeX,    giftLifeY,    (float)    25,    paintgiftLife);
+            moveLifeBall();
+        }
+        if (giftSlowFlag) {
+            canvas.drawCircle(giftSlowX,    giftSlowY,    (float)    25,    paintgiftSlow);
+            moveSlowBall();
+        }
+
         moveBall();
     }
 
@@ -121,7 +147,6 @@ public class PongView extends View implements View.OnTouchListener {
         circleX += xspeed;
         circleY += yspeed;
 
-
         if ((circleX < 0) || (circleX > width)) {
             sound.playBounceSound();
             xspeed *= -1;
@@ -131,7 +156,6 @@ public class PongView extends View implements View.OnTouchListener {
             sound.playBounceSound();
             yspeed *= -1;
         }
-
         if (  (Math.abs(fingerX - circleX) < 200) && (circleY > height - 300)  && (circleY < height - 250)     ){
 
             v.vibrate(100);
@@ -147,7 +171,10 @@ public class PongView extends View implements View.OnTouchListener {
                 if (yspeed > 0)
                     yspeed += 4;
                 else yspeed -= 4;
-
+            }
+            // 초기화
+            if(bouncecount % 4 == 0){
+                initAllGift();
             }
 
             yspeed = -Math.abs(yspeed);
@@ -155,13 +182,13 @@ public class PongView extends View implements View.OnTouchListener {
 
         if (circleY > height) {
             sound.playLoseSound();
-            Toast.makeText(getContext(), "dommage ^^", Toast.LENGTH_SHORT).show();
+            Toast.makeText(getContext(), "아이고 ^^", Toast.LENGTH_SHORT).show();
             losescore--;
             circleX = (float)Math.random() * 700;
             circleY = (float)Math.random() * 200;
             if (losescore == 0) {
                 Toast.makeText
-                        (getContext(), "tu pues^^", Toast.LENGTH_SHORT).show();
+                        (getContext(), "끝났어요 ^^", Toast.LENGTH_SHORT).show();
                 losescore = 10;
                 circleX = 300;
                 circleY = 300;
@@ -173,13 +200,68 @@ public class PongView extends View implements View.OnTouchListener {
                 count = 0;
                 SystemClock.sleep(1000);
             }
-
         }
-
-
         invalidate();
-
     }
 
+    //라이프 볼 설정
+    private void moveLifeBall(){
 
+        if (giftLifeX == 0) {
+            giftLifeX = (int)(Math.random() * width) +1;
+        }
+
+        if(giftLifeFlag) {
+            giftLifeY += Math.abs(yspeed) + 1;
+
+            if ((Math.abs(fingerX - giftLifeX) < 200) && (giftLifeY > height - 300) && (giftLifeY < height - 250)) {
+                Toast.makeText(getContext(), "생명연장의 꿈! ^^", Toast.LENGTH_SHORT).show();
+                giftLifeFlag = false;
+                giftLifeY = 0;
+                v.vibrate(100);
+                sound.playHitSound();
+
+                losescore++;
+            }
+        }
+    }
+
+    //슬로우 볼 설정
+    private void moveSlowBall(){
+
+        if (giftSlowX == 0) {
+            giftSlowX = (int)(Math.random() * width) +1;
+        }
+
+        if(giftSlowFlag) {
+            giftSlowY += Math.abs(yspeed) + 1;
+
+            if ((Math.abs(fingerX - giftSlowX) < 200) && (giftSlowY > height - 300) && (giftSlowY < height - 250)) {
+                Toast.makeText(getContext(), "느려져라! ^^", Toast.LENGTH_SHORT).show();
+                giftSlowFlag = false;
+                giftSlowY = 0;
+                v.vibrate(100);
+                sound.playHitSound();
+
+                if (xspeed > 0)
+                    xspeed -= 6;
+                else xspeed += 6;
+
+                if (yspeed > 0)
+                    yspeed -= 8;
+                else yspeed += 8;
+            }
+        }
+    }
+
+    private void initAllGift(){
+
+        giftLifeFlag = true;
+        giftLifeX = 0;
+        giftLifeY = 0;
+
+        giftSlowFlag = true;
+        giftSlowX = 0;
+        giftSlowY = 0;
+    }
 }
